@@ -1,0 +1,43 @@
+@media screen and (max-width:320px){
+    .container{
+    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+    .first-section {
+
+
+            margin: 0 auto;
+           
+            justify-content: center;
+        align-items: center;
+        
+            
+          
+          
+        }
+        .img{
+            display:flex;
+            width: 320px;
+            height: 432px;
+        }
+    
+        .second-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        .first-section-text {
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 2%;
+            color: #ffffff;
+            width: 200px;
+           
+        }
+}
