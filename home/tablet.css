@@ -1,18 +1,46 @@
-@media (max-width:1158px){
+@media (max-width: 1158px){
 
-.container{
+/* HEADER */
+.header-section-class{
+   
     width: 100%;
 }
+.container-header {
+    width: 100%;
+    }
 
-.menu-button{
-    display: none;
+.nav-container{
+    width: 100%;
+   
+}
+.address-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ul.address-container{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.first-address{
+    font-size:12px
+}
+    
+   
+
+   
+
+
+
+
+/* fIRST SECTION */
+.second-container{
+    width: 100%;
+    margin: 0 auto;
 }
 
-.header-logo{
-    width: 115px;
-    height: 24px;
-    margin-left: 16px;
-}
 
 
 
