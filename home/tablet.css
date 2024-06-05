@@ -28,12 +28,9 @@ ul.address-container{
     font-size:12px
 }
     
-   
-
-   
-
-
-
+.menu-button{
+    display: none;
+}
 
 /* fIRST SECTION */
 .second-container{
@@ -41,8 +38,51 @@ ul.address-container{
     margin: 0 auto;
 }
 
+/* SECOND SECTION */
+
+.features-section-container{
+   width: 100%;
+}
+
+.container-section{
+    width: 100%;
+ 
+    flex-wrap: wrap;
+    justify-content: left;
+ 
+   
+}
+
+.icons-container{
+    display: none;
+}
 
 
+.features-section-container-header{
+    max-width: 736px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+        gap:150px;
+      
+       
+   
+}
+.features-header{
+    font-size:36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.first-text{
+    font-size: 16px;
+   
+}
+.features-header-box{
+  width: 356px;
+   height: 120px;
+   margin-left: 16px;
 
+ 
+}
 
 }

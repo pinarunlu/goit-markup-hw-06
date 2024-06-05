@@ -40,21 +40,10 @@
 
     .first-section {
         width: 100%;
-        margin: 0 auto;
+      
     }
 
-    .first-section-text {
-        font-size: 36px;
-        text-align: center;
-
-    }
-
-    .second-container {
-        width: 216px;
-        justify-content: center;
-        margin-left: 25px;
-
-    }
+   
 
     .button-container {
         margin-top: 30px;
