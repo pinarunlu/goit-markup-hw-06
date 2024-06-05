@@ -16,75 +16,81 @@ body {
 body {
     background-color: #FFFFFF;
 } 
-
-.container-header{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-}
-.container{
-   
-}
-   
-.header-section-class{
-border-bottom: 1px solid #e7e9fc;
-
-box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
-.nav-container{
+.header-section-class {
+    border-bottom: 1px solid #e7e9fc;
+    margin: 0 auto;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+
+.nav-container {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    
-   
-    
+    gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
 }
 
 .nav-connections {
-   
+
     display: flex;
     flex-direction: row;
-
+    width: 261px;
     align-items: center;
     list-style-type: none;
-   
-   
+
+
     gap: 40px;
-    
+
 }
 
 .nav-container a {
     display: flex;
-     flex-direction: row;
+    flex-direction: row;
     text-decoration: none;
     list-style-type: none;
 }
 
-#mailto-address{
-list-style-type: none;
-  
+#mailto-address {
+    list-style-type: none;
+
 }
 
-#mailto-address a{
+#mailto-address a {
     text-decoration: none;
-    
+
 }
 
-#tel-address{
-list-style-type: none;
+#tel-address {
+    list-style-type: none;
 
 
+    margin-right: 0px;
 
-    
 }
-#tel-address a{
-    text-decoration: none; 
-     
+
+#tel-address a {
+    text-decoration: none;
+
 }
 
 ul.address-container {
@@ -93,14 +99,16 @@ ul.address-container {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
- 
-    
-    
+    margin-right: 40px;
+
+
 }
-.address-container{
+
+.address-container {
     padding-top: 24px;
-        padding-bottom: 24px;
+    padding-bottom: 24px;
 }
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -109,13 +117,14 @@ ul.address-container {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
- 
+    width: 71px;
     margin-right: 76px;
-       
+
 }
+
 span {
     color: #2e2f42;
-    
+
 }
 
 .header-list-first {
@@ -124,40 +133,43 @@ span {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 24px;
-        padding-bottom: 24px;
-        font-size: 16px;
-        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
+    padding-bottom: 24px;
+    font-size: 16px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-#header-studio-text{
+
+#header-studio-text {
 
     position: relative;
     color: #404bbf;
-   
+
 }
-#header-studio-text::after{
-content: "";
-width: 100%;
-position: absolute;
-left: 0;
+
+#header-studio-text::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
 
 }
+
 nav a:hover {
     color: #404bbf;
-   
+
 }
 
 nav a:focus {
     color: #404bbf;
-    
+
 }
 
 .address-list {
-font-style: normal;
+    font-style: normal;
 
 }
 
@@ -167,12 +179,18 @@ font-style: normal;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address-list :hover {
     color: #404bbf;
 }
+
 .address-list :focus {
     color: #404bbf;
 }
+
+
+
+
 
 .first-section {
     background-color: #2E2F42 70%;
