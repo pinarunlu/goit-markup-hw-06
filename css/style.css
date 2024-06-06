@@ -863,4 +863,9 @@ border-color: #4D5AE5;
 img {
     display: block;
 }
-
+.is-open{
+    display: none;
+}
+.is-open-is{
+    display: none;
+}
