@@ -1,5 +1,9 @@
 @media (max-width: 1158px){
 
+.is-open-is{
+    display: none;
+}
+
 /* HEADER */
 .header-section-class{
    
@@ -152,12 +156,9 @@ width: 100%;
     margin-right: 0;
 
 }
-
-
-
-
-
-
+.is-open{
+    display: none;
+}
 
 
 
