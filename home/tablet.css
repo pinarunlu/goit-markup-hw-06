@@ -113,6 +113,27 @@ width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/* FOURT SECTION */
+
+.portfolio-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.portfolio-cards-container{
+   width: 100%;
+    
+}
+.portfolio-cards-main-container{
+    flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+
+}
+.portfolio-card-borders{
+    width: 356px;
+    height: 420px;
+}
+/* FOOTER */
 
 
 
