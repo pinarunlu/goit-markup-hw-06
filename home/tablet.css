@@ -33,6 +33,10 @@ ul.address-container{
 }
 
 /* fIRST SECTION */
+
+.first-section{
+    width: 100%;
+}
 .second-container{
     width: 100%;
     margin: 0 auto;
@@ -60,13 +64,10 @@ ul.address-container{
 
 .features-section-container-header{
     max-width: 736px;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    
-        gap:150px;
+    justify-content: flex-start;
+   flex-wrap: wrap;
+    gap:200px;
       
-       
-   
 }
 .features-header{
     font-size:36px;
@@ -81,8 +82,42 @@ ul.address-container{
   width: 356px;
    height: 120px;
    margin-left: 16px;
-
- 
 }
+/* THIRD SECTION */
+
+.team-section{
+width: 100%;
+
+
+}
+.team-card-container{
+    flex-wrap: wrap;
+}
+.third-section-div-container{
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.team-card{
+    width: 264px;
+    height: 428px;
+   
+}
+.team-card:first-child{
+    margin-left: 108px;
+}
+.team-card:nth-child(3){
+    margin-left: 108px;
+}
+.team-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
 
 }
