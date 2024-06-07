@@ -670,6 +670,9 @@ border-radius: 4px;
 margin-left: 16px;
 }
 
+/* .is-open {
+    display: block;
+} */
 
 .modal-backdrop-container{
     display: none;
@@ -863,9 +866,10 @@ border-color: #4D5AE5;
 img {
     display: block;
 }
-.is-open{
+
+.drawer-menu-container {
     display: none;
 }
-.is-open-is{
+.drawer-menu-button{
     display: none;
 }
